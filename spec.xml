@@ -13,7 +13,20 @@
         datatype="string" />
     <Content type="html">
         <![CDATA[
-            <blockquote class="twitter-tweet"><p lang="en" dir="ltr">San Francisco voters will decide in November whether to tax large businesses to pay for homeless and housing services in a city struggling with income inequality. <a href="https://t.co/3muCjgRjVv">https://t.co/3muCjgRjVv</a></p>&mdash; AP West Region (@APWestRegion) <a href="https://twitter.com/APWestRegion/status/1019068033040560129?ref_src=twsrc%5Etfw">July 17, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+            <html>
+  <head>
+    <!--
+    * STEP 1
+    * - Adjust the jQuery src filename to match the jQuery 1.x version in your gadget's vendor/jquery folder
+    * - Adjust the Bootstrap 3.x css filename to match the Bootstrap 3.x version in your gadget's vendor/bootstrap folder
+    --> 
+    <script src="../vendor/jquery/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../vendor/bootstrap/bootstrap.min.css"/>
+</head>
+    <body>
+        <blockquote class="twitter-tweet"><p lang="en" dir="ltr">San Francisco voters will decide in November whether to tax large businesses to pay for homeless and housing services in a city struggling with income inequality. <a href="https://t.co/3muCjgRjVv">https://t.co/3muCjgRjVv</a></p>&mdash; AP West Region (@APWestRegion) <a href="https://twitter.com/APWestRegion/status/1019068033040560129?ref_src=twsrc%5Etfw">July 17, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+    </body>
+</html>
         ]]>
     </Content>
 </Module>
