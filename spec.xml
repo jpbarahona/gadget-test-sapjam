@@ -15,11 +15,9 @@
         <![CDATA[
             <html>
   <head>
-    <!--
-    * STEP 1
-    * - Adjust the jQuery src filename to match the jQuery 1.x version in your gadget's vendor/jquery folder
-    * - Adjust the Bootstrap 3.x css filename to match the Bootstrap 3.x version in your gadget's vendor/bootstrap folder
-    --> 
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> 
     <style>
         blockquote.twitter-tweet {
   display: inline-block;
