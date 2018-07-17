@@ -3,7 +3,7 @@
             title="Twitter"
             description="Twitter prueba"
             author="Twitter User"
-            thumbnail="https://example.com/images/thumbnail.png">
+            thumbnail="https://www.importancia.org/wp-content/uploads/1-360x360.png">
         <Require feature="dynamic-height" />
     </ModulePrefs>
     <UserPref
