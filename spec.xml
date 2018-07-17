@@ -20,7 +20,6 @@
     * - Adjust the jQuery src filename to match the jQuery 1.x version in your gadget's vendor/jquery folder
     * - Adjust the Bootstrap 3.x css filename to match the Bootstrap 3.x version in your gadget's vendor/bootstrap folder
     --> 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <style>
         blockquote.twitter-tweet {
   display: inline-block;
