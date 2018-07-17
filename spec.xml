@@ -5,7 +5,6 @@
             author="Twitter PHR JP"
             height="auto"
             thumbnail="https://www.importancia.org/wp-content/uploads/1-360x360.png">
-        <Require feature="dynamic-height" />
     </ModulePrefs>
     <UserPref
         name="mycolor"
