@@ -18,7 +18,22 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> 
-    
+    <script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
 </head>
     <body>
         <blockquote class="twitter-tweet"><p lang="en" dir="ltr">San Francisco voters will decide in November whether to tax large businesses to pay for homeless and housing services in a city struggling with income inequality. <a href="https://t.co/3muCjgRjVv">https://t.co/3muCjgRjVv</a></p>&mdash; AP West Region (@APWestRegion) <a href="https://twitter.com/APWestRegion/status/1019068033040560129?ref_src=twsrc%5Etfw">July 17, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
