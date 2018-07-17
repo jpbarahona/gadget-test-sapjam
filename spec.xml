@@ -1,8 +1,8 @@
 <Module specificationVersion='2'>
     <ModulePrefs
-            title="Hello World example"
-            description="Sample Hello World gadget"
-            author="Test User"
+            title="Twitter"
+            description="Twitter prueba"
+            author="Twitter User"
             thumbnail="https://example.com/images/thumbnail.png">
         <Require feature="dynamic-height" />
     </ModulePrefs>
@@ -13,18 +13,11 @@
         datatype="string" />
     <Content type="html">
         <![CDATA[
-            <script type="text/JavaScript">
-                // Get the preferences for the current user
-                var prefs = new gadgets.Prefs();
-                function hello_world() {
-                    var html="Hello World!";
-                    document.getElementById("content_div").style.backgroundColor=prefs.getString("mycolor");
-                    document.getElementById("content_div").innerHTML = html;
-                    gadgets.window.adjustHeight();
-                }    
-                gadgets.util.registerOnLoadHandler(hello_world); 
-            </script>
-            <div id="content_div"></div>
+            <a class="twitter-timeline" href="https://twitter.com/search?q=from%3Ajobsnhs+bristol" data-widget-id="524518920179302400">Tweets NHS jobs in Bristol</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);
+js.id=id;js.src=p+"://platform.twitter.com/widgets.js";
+fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+</script>
         ]]>
     </Content>
 </Module>
