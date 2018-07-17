@@ -1,0 +1,19 @@
+<Module specificationVersion='2'>
+    <ModulePrefs
+            title="Hello World example"
+            description="Sample Hello World gadget"
+            author="Test User"
+            thumbnail="https://example.com/images/thumbnail.png">
+        <Require feature="dynamic-height" />
+    </ModulePrefs>
+    <UserPref
+        name="mycolor"
+        display_name="Color"
+        default_value="Lime"
+        datatype="string" />
+    <Content type="html">
+        <![CDATA[
+            <blockquote class="twitter-tweet"><p lang="en" dir="ltr">San Francisco voters will decide in November whether to tax large businesses to pay for homeless and housing services in a city struggling with income inequality. <a href="https://t.co/3muCjgRjVv">https://t.co/3muCjgRjVv</a></p>&mdash; AP West Region (@APWestRegion) <a href="https://twitter.com/APWestRegion/status/1019068033040560129?ref_src=twsrc%5Etfw">July 17, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+        ]]>
+    </Content>
+</Module>
