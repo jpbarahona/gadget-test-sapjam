@@ -2,7 +2,7 @@
     <ModulePrefs
             title="Twitter"
             description="Twitter prueba"
-            author="Twitter User"
+            author="Twitter PHR JP"
             thumbnail="https://www.importancia.org/wp-content/uploads/1-360x360.png">
         <Require feature="dynamic-height" />
     </ModulePrefs>
