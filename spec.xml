@@ -3,8 +3,8 @@
             title="Twitter"
             description="Twitter prueba"
             author="Twitter PHR JP"
-            thumbnail="https://www.importancia.org/wp-content/uploads/1-360x360.png">
-        <Require feature="dynamic-height" />
+            thumbnail="https://www.importancia.org/wp-content/uploads/1-360x360.png"
+            height="400" >
     </ModulePrefs>
     <UserPref
         name="mycolor"
