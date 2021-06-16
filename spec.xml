@@ -5,7 +5,7 @@
             author="Twitter PHR JP"
             thumbnail="https://www.importancia.org/wp-content/uploads/1-360x360.png"
             height="800" >
-           <Require feature=”osapi”/>
+           <Require feature="osapi"/>
     </ModulePrefs>
     <UserPref
         name="mycolor"
