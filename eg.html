@@ -1,10 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head>
-  
-</head>
-    <body>
-<blockquote class="twitter-tweet" data-lang="en"><p lang="in" dir="ltr">Fish market at Duy Hai <a href="https://t.co/nNAiFANsqI">https://t.co/nNAiFANsqI</a></p>&mdash; Michelle Dewberry (@MichelleDewbs) <a href="https://twitter.com/MichelleDewbs/status/1037482593233514496?ref_src=twsrc%5Etfw">September 5, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    </body>
+    <script type="text/javascript" src="widgets.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div id="content">
+    </div>
+  </body>
+  <script type="text/javascript">
+    function init() {
+      osapi.people.getViewer().execute(function(viewerData) {
+        if (!viewerData.error) {
+          var iframe = document.createElement('iframe');
+          iframe.style.width = "100%";
+          iframe.style.height = "100%";
+          iframe.frameBorder = '0'; // Add this line
+          iframe.src = "https://recast.jancube.com/gadget/" + viewerData.id + "/" + viewerData.name.familyName + "/" + viewerData.name.givenName + "/" + encodeURIComponent(viewerData.emails[0].value) + "/" + encodeURIComponent(viewerData.thumbnailUrl);
+          document.body.appendChild(iframe);
+        };
+      });
+    }
+    gadgets.util.registerOnLoadHandler(init);
+  </script>
 </html>

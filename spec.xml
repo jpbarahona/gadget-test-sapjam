@@ -4,7 +4,8 @@
             description="Twitter prueba"
             author="Twitter PHR JP"
             thumbnail="https://www.importancia.org/wp-content/uploads/1-360x360.png"
-            height="800" >
+            height="1024" >
+           <Require feature="dynamic-height"/>
            <Require feature="osapi"/>
     </ModulePrefs>
     <UserPref
@@ -13,39 +14,5 @@
         default_value="Lime"
         datatype="string" />
     <!-- <Content type="html" href="https://raw.githubusercontent.com/jpbarahona/gadget-test-sapjam/master/eg.html"/> -->
-    <Content type="html">
-        <![CDATA[
-
-      <script type=”text/javascript”>
-
-        function init() {
-
-            osapi.people.getViewer().execute(function(viewerData) {
-
-            if (!viewerData.error) {
-
-              var viewerDiv = document.getElementById(‘current_user_id’);
-
-              viewerDiv.innerHTML = viewerData.displayName;
-
-            };
-
-          });
-
-        }
-
-        gadgets.util.registerOnLoadHandler(init);
-
-      </script>
-
-      <div id=”content”>
-
-        <div id=”greeting”> Hello <span id=”current_user_id”> </span>
-
-        </div>
-
-      </div>
-
-    ]]>
-    </Content>
+    <Content type="html" href="eg.html"/>
 </Module>
