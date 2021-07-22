@@ -1,9 +1,8 @@
 <Module specificationVersion='2'>
     <ModulePrefs
-            title="Twitter"
-            description="Twitter prueba"
-            author="Twitter PHR JP"
-            thumbnail="https://www.importancia.org/wp-content/uploads/1-360x360.png"
+            title="Recast"
+            description="Agrosuper en VIVO"
+            author="JANCUBE"
             height="1024" >
            <Require feature="dynamic-height"/>
            <Require feature="osapi"/>
